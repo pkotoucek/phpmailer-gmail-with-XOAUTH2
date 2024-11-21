@@ -117,7 +117,7 @@ $clientId = 'your-client-id.apps.googleusercontent.com';
 $clientSecret = 'your-client-id';
 $redirectUri = 'http://localhost/primakavarna/send_gmail.php';
 
-$refreshToken = 'my-refresh-token';
+$refreshToken = 'your-refresh-token';
 ```
 
  => run it.
