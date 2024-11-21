@@ -7,8 +7,8 @@ Library Is For Educational Purposes Only Directly Connected With Project PrimaKa
 
 ## 2. INFO
 
-As Google still changing rules, like example: [Google API Client Upgrade Guide](https://github.com/googleapis/google-api-php-client/blob/main/UPGRADING.md)
-Now (11.2024) this tutorial works, but if will stop working, you need to update procedure accordingly to changes!
+As Google still changing rules, like example: [Google API Client Upgrade Guide](https://github.com/googleapis/google-api-php-client/blob/main/UPGRADING.md),
+now (11.2024) this tutorial works, but if will stop working, you need to update procedure accordingly to changes!
 
 ## 3. PREREQ:
 
@@ -23,7 +23,6 @@ Make note about:
 $clientId = 'your-client-id.apps.googleusercontent.com';
 $clientSecret = 'your-client-secret';
 $redirectUri = 'set-more-urls-than-one';
-// ...
 ```
 
 Inputs for "$redirectUri ='';" created:
@@ -35,7 +34,7 @@ Inputs for "$redirectUri ='';" created:
 
 
 Warning:
-As my google project is set as "TEST", clint ID / secret need to be refreshed every 7days to keep it alive!!
+In my case google project is set as "TEST", client ID / secret need to be refreshed every 7days to keep it alive!!
 
 
 ## 4. Installation:
@@ -101,7 +100,7 @@ $redirectUri = 'http://localhost/primakavarna/get_oauth_token.php';
  Finally you have your refresh token!
  ![image](https://github.com/user-attachments/assets/16509090-d4fa-4b92-ac62-45529568a551)
 
-## 7. Send email:
+## 7. Send email
 Downloaded from [gmail_xoauth](https://github.com/PHPMailer/PHPMailer/blob/561609ac2ebae1b3ec1b636a38bf174d8de12955/examples/gmail_xoauth.phps)
 And created send_gmail.php in root of primakavarna project!
 Additional download [contentsutf8.html](https://github.com/PHPMailer/PHPMailer/blob/master/examples/contentsutf8.html)
@@ -138,6 +137,8 @@ Success!!
 ## 8. Troubleshooting
 If you are facing issue with error message with 'invalid_grant', in my case was connected with wrongly set '$redirectUri'.
 But it can be connected with multiple another issues, as is mentioned in[invalid-grant-nightmare](https://blog.timekit.io/google-oauth-invalid-grant-nightmare-and-how-to-fix-it-9f4efaf1da35)
+
+Example:
 
 ```php
 2024-11-19 23:04:14 SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-aa20df263bcsm696223666b.11 - gsmtp
