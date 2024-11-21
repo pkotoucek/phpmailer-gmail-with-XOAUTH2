@@ -49,7 +49,7 @@ In my case I have "vendor" folder in root of primakavarna project!
 ## 5. Verify settings
 
 Downloaded from [oauth2-google](https://github.com/thephpleague/oauth2-google)
-And created send_gmail_token.php in root of primakavarna project!
+And created send_gmail_token.php (from Authorization Code Flow) in root of primakavarna project!
 If you are using Intelephense, fix error [intelephense(P1013)](https://github.com/bmewburn/vscode-intelephense/issues/1413) via disable Intelephense extension..
 Via this code you will verify, if all is set correctly or not.
 Must be changed:
