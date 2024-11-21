@@ -79,6 +79,7 @@ Finally success:
 ![image](https://github.com/user-attachments/assets/ae463bb1-2339-4f38-ab8e-3c1bd34bb3e8)
 
 ## 6. Gain refresh token
+Warning: This can be obtained only once, for next run output will be null!! If you will need another one, you must recreate it in Google API.
 Downloaded from [get_oauth_token)](https://github.com/PHPMailer/PHPMailer/blob/master/get_oauth_token.php)
 And created get_oauth_token.php in root of primakavarna project!
 Must be changed only '$redirectUri' part of this script:
@@ -94,6 +95,7 @@ $redirectUri = 'http://localhost/primakavarna/get_oauth_token.php';
  ![image](https://github.com/user-attachments/assets/4770e7bf-c2a2-48a6-8351-076f3fe930d0)
 
  Finally you have your refresh token!
+ Make a note about!
  ![image](https://github.com/user-attachments/assets/16509090-d4fa-4b92-ac62-45529568a551)
 
 ## 7. Send email
