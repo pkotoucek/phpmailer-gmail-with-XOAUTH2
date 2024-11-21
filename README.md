@@ -126,8 +126,8 @@ $refreshToken = 'your-refresh-token';
 
 Success!!
 
-![image](https://github.com/user-attachments/assets/dc6eb1de-b450-4fe1-98b1-bb41734723ce)
- 
+![image](https://github.com/user-attachments/assets/652b79dd-f8d1-4bfd-b357-33e29c675fec)
+
 ## 8. Troubleshooting
 If you are facing issue with error message with 'invalid_grant', in my case was connected with wrongly set '$redirectUri'.
 But it can be connected with multiple another issues, as is mentioned in[invalid-grant-nightmare](https://blog.timekit.io/google-oauth-invalid-grant-nightmare-and-how-to-fix-it-9f4efaf1da35)
