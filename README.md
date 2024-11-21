@@ -83,7 +83,7 @@ Finally success:
 ![image](https://github.com/user-attachments/assets/ae463bb1-2339-4f38-ab8e-3c1bd34bb3e8)
 
 ## 6. Gain refresh token
-Downloaded from [get_oauth_token)](https://github.com/PHPMailer/PHPMailer/blob/master/get_oauth_token.php]
+Downloaded from [get_oauth_token)](https://github.com/PHPMailer/PHPMailer/blob/master/get_oauth_token.php)
 And created get_oauth_token.php in root of primakavarna project!
 Must be changed only '$redirectUri' part of this script:
 
@@ -145,7 +145,6 @@ Example:
 2024-11-19 23:04:14 CLIENT -> SERVER: EHLO localhost
 2024-11-19 23:04:14 SERVER -> CLIENT: 250-smtp.gmail.com at your service, [178.209.137.107]250-SIZE 35882577250-8BITMIME250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH250-ENHANCEDSTATUSCODES250-PIPELINING250-CHUNKING250 SMTPUTF8
 ( ! ) Fatal error: Uncaught League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_grant in
-… is really long error, shortened here…
+… => it was really long error, shortened here…
 2024-11-19 23:04:15 CLIENT -> SERVER: QUIT
-2024-11-19 23:04:15 SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-aa20df263bcsm696223666b.11 - gsmtp![image](https://github.com/user-attachments/assets/84c1ba76-42e0-4d55-88f2-6b3eafc5332d)
-```
+2024-11-19 23:04:15 SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-aa20df263bcsm696223666b.11
