@@ -107,7 +107,7 @@ For send_gmail.php must be changed:
 'clientId'
 'clientSecret'
 'redirectUri'
-$refreshToken = 'my-refresh-token';
+'refreshToken'
 
 ```php
 require 'vendor/autoload.php';
