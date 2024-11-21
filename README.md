@@ -13,7 +13,7 @@ now (11.2024) this tutorial works, but if will stop working, you need to update 
 ## 3. PREREQ:
 
 Create your project with [Google](https://github.com/PHPMailer/PHPMailer/wiki/Using-Gmail-with-XOAUTH2)
-You will need complete your API, do not continue with token part from this link, as will be done in step6 bellow:
+You will need complete your API (in my case named as PHPMAILER), do not continue with token part from this link, as will be done in step6 bellow:
 Make note about:
 'clientId'
 'client secret'
