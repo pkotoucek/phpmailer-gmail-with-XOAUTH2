@@ -144,3 +144,11 @@ Example:
 … => it was really long error, shortened here…
 2024-11-19 23:04:15 CLIENT -> SERVER: QUIT
 2024-11-19 23:04:15 SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-aa20df263bcsm696223666b.11
+```
+
+## 9. Next step
+When I will move forward in training lesson, I will try to set
+'clientId'
+'clientSecret'
+'refreshToken'
+as secret variables from DB to not have them as plain text inside code.
