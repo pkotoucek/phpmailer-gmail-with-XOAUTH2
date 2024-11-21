@@ -32,10 +32,8 @@ Inputs for "$redirectUri ='';" created:
 
 ![image](https://github.com/user-attachments/assets/26bc727d-9618-4156-ab46-65ace484cf6e)
 
-
 Warning:
 In my case google project is set as "TEST", client ID / secret need to be refreshed every 7days to keep it alive!!
-
 
 ## 4. Installation:
 
@@ -45,8 +43,6 @@ The easiest way to install the library is using [Composer](https://getcomposer.o
 composer require phpmailer/phpmailer
 composer require league/oauth2-google
 ```
-
-Or simply download the PHP package from the [src/](./src/) directory in this repository.
 
 In my case I have "vendor" folder in root of primakavarna project!
 
@@ -131,8 +127,6 @@ $refreshToken = 'my-refresh-token';
 Success!!
 
 ![image](https://github.com/user-attachments/assets/dc6eb1de-b450-4fe1-98b1-bb41734723ce)
-
-
  
 ## 8. Troubleshooting
 If you are facing issue with error message with 'invalid_grant', in my case was connected with wrongly set '$redirectUri'.
